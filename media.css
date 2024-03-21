@@ -1,0 +1,88 @@
+@media(max-width: 950px){
+    .container{
+        max-width: 950px;
+    }
+    .paper{
+        width: 380px;
+        padding-top: 40px;
+    }
+    .left__block__h1{
+        font-size: 50px;
+    }
+    .left__block__p{
+        font-size: 15px;
+    }
+    .left__block__btn{
+        width: 200px;
+        height: 50px;
+        padding: 20px 50px;
+        font-size: 17px;
+    }
+    .left__block{
+        gap: 20px;
+        padding-top: 100px;
+    }
+    .section1{
+        justify-content: center;
+        gap: 80px;
+    }
+    .header{
+        justify-content: center;
+        gap: 40px; /*изменить значение на нужное*/
+    }
+    .paper2{
+        width: 450px;
+    }
+    .maxbelizna__h2{
+        font-size: 35px;
+    }
+    .maxbelizna__p{
+        font-size: 16px;
+    }
+    .maxbelizna__section2{
+        gap: 15px;
+    }
+    .book{
+        padding-top: 90px;
+        position: relative;
+        width: 550px;
+    }
+    .section5 {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .left__block__p__section5{
+        font-size: 16px;
+    }
+  
+    }
+
+    @media(max-width: 875px){
+        .container{
+            max-width: 875px;
+           
+        }
+        .icon__header{
+            display: none;
+        }
+        .maxbelizna__section2{
+            gap: 20px;
+            justify-content: left;
+        }
+        .maxbelizna__p{
+            max-width: 300px;
+        }
+    }
+    @media(max-width: 790px){
+        .container{
+            max-width: 790px;
+           
+        }
+        .paper2{
+            width: 400px;
+        }
+        .book{
+            width: 420px;
+        }
+    }
